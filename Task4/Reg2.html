@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <Caption>
+        <h1 align="center">Registration Form</h1>
+    </Caption>
+    <form name="registraion form" serever="https://www.HtmlfForm.com" method="post">
+        <table border="0px" align="center" bgcolor="eef1ff" cellspacing="3px" cell padding="10px">
+            <tr>
+                <td><label>First Name</label></td>
+                <td><label>Last Name</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="FirstName" name="FirstName">
+                </td>
+                <td>
+                    <input type="text" id="LastName" name="LastName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Birthday</label>
+                </td>
+                <td>
+                    <label>Gender</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date" id="Birhday" name="Birthday">
+                </td>
+                <td>
+                    <input type="radio" id="gender" name="gender">Male
+                    <input type="radio" id="gender" name="gender">female
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><label>Phone Number</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" id="email" name="email" placeholder="Abc01@gmail.com">
+                </td>
+                <td>
+                    <input type="tel" id="PhoneNumber" name="PhoneNumber" placeholder="+91xxxxxxx">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Subject</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <Select id="Subject" name="Subject">
+                        <option value="Choose OPtions">Choose Options</option>
+                        <option>Telugu</option>
+                        <option>Hindi</option>
+                        <option>English</option>
+                        <option>Maths</option>
+                        <option>Science</option>
+                        <option>Social</option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td><button>Submit</button></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
